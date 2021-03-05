@@ -1,0 +1,175 @@
+body {
+  font-family: "Avenir Next";
+  color:#404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #404146;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+  padding: 25px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  font-size: 20px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.copy-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+  margin-bottom: 0px;
+  letter-spacing: 10px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.copy-container span {
+  color: #f2d00d;
+}
+
+.copy-container img {
+  height:500px;
+  border-radius: 10px;
+}
+
+.about { 
+  font-size: 28px;
+  height: 260px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/*.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}*/
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.contents-item {
+  float: left;
+  
+}
+
+.contents-item img{
+  height: 150px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+  margin-left: 160px;
+  
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-left: 150px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(244, 244, 244);
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color:#f7ea8a;
+  color:#4f4f4f;
+  font-size: 22px;
+}
+
+.contact-form p{
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #7C7D83;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color:#fff;
+}
+
